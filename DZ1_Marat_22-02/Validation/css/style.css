@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+}
+
+.box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto 0;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+}
+
+.box > span {
+    font-size: 15px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.box #emailInput {
+    margin-bottom: 20px;
+}
+
+.box #passwordInput {
+    margin-bottom: 20px;
+}
+
+.box div label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+}
+
+{
+color: darkcyan;
+}
